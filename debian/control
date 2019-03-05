@@ -34,7 +34,6 @@ Description: NorNet Trace Service
  .
  See https://www.nntb.no for details on NorNet!
 
-
 Package: nornet-trace-trigger
 Architecture: all
 Depends: hipercontracer-trigger (>= 1.3.0~),
