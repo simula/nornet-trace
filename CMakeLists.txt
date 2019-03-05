@@ -17,7 +17,7 @@
 # Contact: dreibh@simula.no
 
 CMAKE_MINIMUM_REQUIRED(VERSION 3.0.2)
-PROJECT(nornet LANGUAGES C)
+PROJECT(nornet-trace LANGUAGES C)
 
 SET(BUILD_MAJOR "2")
 SET(BUILD_MINOR "0")
@@ -41,8 +41,7 @@ SET(CPACK_SOURCE_GENERATOR "TXZ")
 SET(CPACK_SOURCE_PACKAGE_FILE_NAME
    "${CMAKE_PROJECT_NAME}-${BUILD_MAJOR}.${BUILD_MINOR}.${BUILD_PATCH}")
 SET(CPACK_SOURCE_IGNORE_FILES
-
-"${PROJECT_SOURCE_DIR}/${CMAKE_PROJECT_NAME}-*;${PROJECT_SOURCE_DIR}/${CMAKE_PROJECT_NAME}_*;/build/;/.git/;.gitmodules$;/.gimp/;/config.log;/CMakeFiles/;CMakeCache.txt$;.cmake$;.tar.gz$;/_CPack_Packages;/Makefile$;~$;/build-deb;/clean-deb;/filter-empty-entries;/make-symbols;/make-ppa;/make-deb;/debian.conf;/make-rpm;/rpm.conf;${CPACK_SOURCE_IGNORE_FILES};/background/Output/;src/Artwork/Sites/Large/;src/Artwork/Sites/Small/;src/VirtualBox/;setup.py$")
+   "${PROJECT_SOURCE_DIR}/${CMAKE_PROJECT_NAME}-*;${PROJECT_SOURCE_DIR}/${CMAKE_PROJECT_NAME}_*;/build/;/.git/;.gitmodules$;/.gimp/;/config.log;/CMakeFiles/;CMakeCache.txt$;.cmake$;.tar.gz$;/_CPack_Packages;/Makefile$;~$;/build-deb;/clean-deb;/filter-empty-entries;/make-symbols;/make-ppa;/make-deb;/debian.conf;/make-rpm;/rpm.conf;${CPACK_SOURCE_IGNORE_FILES};/background/Output/;src/Artwork/Sites/Large/;src/Artwork/Sites/Small/;src/VirtualBox/;setup.py$")
 INCLUDE(CPack)
 
 ADD_CUSTOM_TARGET(dist COMMAND ${CMAKE_MAKE_PROGRAM} clean package_source)
@@ -91,19 +90,6 @@ ELSE()
     MESSAGE(FATAL_ERROR ${CMAKE_SYSTEM_NAME} " not supported (yet?)")
 
 ENDIF()
-
-
-#############################################################################
-# REQUIREMENTS
-#############################################################################
-
-SET(PYTHON_LIBRARY_PREFIX "${CMAKE_INSTALL_PREFIX}" CACHE PATH   "NorNet Python library prefix")
-SET(PYTHON_SETUP_OPTS     ""                        CACHE STRING "")
-
-SET(Python_ADDITIONAL_VERSIONS 3)
-INCLUDE(FindPythonInterp)
-
-FIND_PACKAGE(PythonInterp 3.4.0 REQUIRED)
 
 
 #############################################################################

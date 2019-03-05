@@ -1,5 +1,5 @@
-nornet-trace-service (2.0.0~beta1-1ubuntu1) disco; urgency=high
+nornet-trace (2.0.0~beta1-1ubuntu1) disco; urgency=high
 
   * New release.
 
- -- Thomas Dreibholz <dreibh@iem.uni-due.de>  Mon, 18 Feb 2019 08:08:08 +0800
+ -- Thomas Dreibholz <dreibh@iem.uni-due.de>  Tue, 05 Mar 2019 08:08:08 +0800

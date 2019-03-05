@@ -1,8 +1,8 @@
 Name: NorNet Trace Service
 Homepage: https://www.nntb.no
-Repository: https://github.com/simula/nornet-trace-service.git
-Repository-Browse: https://github.com/simula/nornet-trace-service
-Bug-Submit: https://github.com/simula/nornet-trace-service/issues
+Repository: https://github.com/simula/nornet-trace.git
+Repository-Browse: https://github.com/simula/nornet-trace
+Bug-Submit: https://github.com/simula/nornet-trace/issues
 Contact: Thomas Dreibholz <dreibh@simula.no>
 Security-Contact: Thomas Dreibholz <dreibh@simula.no>
 Reference:

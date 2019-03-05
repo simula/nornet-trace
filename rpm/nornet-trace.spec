@@ -1,11 +1,11 @@
-Name: nornet-trace-service
+Name: nornet-trace
 Version: 2.0.0~beta1
 Release: 1
 Summary: NorNet Control
 Group: Applications/Internet
 License: GPLv3
 URL: https://www.nntb.no/
-Source: https://packages.nntb.no/software/nornet-trace-service/%{name}-%{version}.tar.xz
+Source: https://packages.nntb.no/software/nornet-trace/%{name}-%{version}.tar.xz
 
 AutoReqProv: on
 BuildRequires: cmake
@@ -38,33 +38,33 @@ make DESTDIR=%{buildroot} install
 
 
 
-%package trace-importer
+%package importer
 Summary: NorNet Trace Importer
 Group: Applications/Internet
 BuildArch: noarch
 Recommends: hipercontracer
 
-%description trace-service
+%description importer
  NorNet Trace Importer is the importer cron job to import results from the
  NorNet Trace Service into a database.
  See https://www.nntb.no for details on NorNet!
 
 
 
-%package trace-service
+%package service
 Summary: NorNet Trace Service
 Group: Applications/Internet
 BuildArch: noarch
-Requires: %{name}-trace-importer = %{version}-%{release}
-Requires: nornet-tunnelbox = %{version}-%{release}
+Requires: %{name}-importer = %{version}-%{release}
+Requires: nornet-tunnelbox
 Requires: hipercontracer
 
-%description trace-service
+%description service
  NorNet Trace Service is the traceroute service for the NorNet testbed.
- It performs regular traceroute/traceroute6 runs among all sites.
+ It performs regular HiPerConTracer runs among all sites.
  See https://www.nntb.no for details on NorNet!
 
-%files trace-service
+%files service
 /usr/bin/nornetinfogenerator
 /usr/share/man/man1/nornetinfogenerator.1.gz
 

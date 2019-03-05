@@ -1,0 +1,23 @@
+commit 3ba95f11c9b22111d8dad66c9a4e3434ad422451
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Mar 5 12:22:50 2019 +0100
+
+    Added build scripts.
+
+commit ad106d0bfe9bbb3ac7439d87d472b2c307de9a42
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Mar 5 12:19:00 2019 +0100
+
+    Added Ubuntu packaging files.
+
+commit 7ee9c2a17ca2f9602719a1cd727bc905c049f4ba
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Mar 5 12:12:33 2019 +0100
+
+    Added script and manpage.
+
+commit a8f8050a6ca947a5f44e0ff346678d35215cf749
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Mar 5 12:10:57 2019 +0100
+
+    Added RPM.
