@@ -42,12 +42,17 @@ make DESTDIR=%{buildroot} install
 Summary: NorNet Trace Importer
 Group: Applications/Internet
 BuildArch: noarch
-Recommends: hipercontracer
+Requires: crontabs
+Requires: hipercontracer
+Requires: nornet-management
 
 %description importer
  NorNet Trace Importer is the importer cron job to import results from the
  NorNet Trace Service into a database.
  See https://www.nntb.no for details on NorNet!
+
+%files importer
+%config(noreplace) %{_sysconfdir}/cron.d/nornet-trace-importer
 
 
 
@@ -56,8 +61,8 @@ Summary: NorNet Trace Service
 Group: Applications/Internet
 BuildArch: noarch
 Requires: %{name}-importer = %{version}-%{release}
-Requires: nornet-tunnelbox
 Requires: hipercontracer
+Requires: nornet-tunnelbox
 
 %description service
  NorNet Trace Service is the traceroute service for the NorNet testbed.
@@ -65,11 +70,11 @@ Requires: hipercontracer
  See https://www.nntb.no for details on NorNet!
 
 %files service
-/usr/bin/nornetinfogenerator
-/usr/share/man/man1/nornetinfogenerator.1.gz
+%{_bindir}/nornetinfogenerator
+%{_mandir}/man1/nornetinfogenerator.1.gz
 
 
 
 %changelog
-* Fri Nov 16 2018 Thomas Dreibholz <dreibh@iem.uni-due.de> - 0.0.0
+* Tue Mar 05 2019 Thomas Dreibholz <dreibh@iem.uni-due.de> - 2.0.0~beta1
 - Created RPM package.
