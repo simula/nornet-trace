@@ -10,4 +10,4 @@ INSTALL(FILES nornetinfogenerator.1  DESTINATION ${CMAKE_INSTALL_MANDIR}/man1)
 # EXAMPLES
 #############################################################################
 
-INSTALL(PROGRAMS nornet-trace-importer DESTINATION ${CMAKE_INSTALL_FULL_SYSCONFDIR}/cron.d)
+INSTALL(FILES nornet-trace-importer DESTINATION ${CMAKE_INSTALL_FULL_SYSCONFDIR}/cron.d)
