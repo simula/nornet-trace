@@ -33,3 +33,16 @@ Description: NorNet Trace Service
  It performs regular HiPerConTracer runs among all sites.
  .
  See https://www.nntb.no for details on NorNet!
+
+
+Package: nornet-trace-trigger
+Architecture: all
+Depends: hipercontracer-trigger (>= 1.3.0~),
+         nornet-trace-importer (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: NorNet Trace Trigger
+ NorNet Trace Trigger is the traceroute service for the NorNet testbed.
+ It performs triggered HiPerConTracer runs.
+ .
+ See https://www.nntb.no for details on NorNet!
