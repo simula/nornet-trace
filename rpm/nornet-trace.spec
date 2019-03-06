@@ -1,5 +1,5 @@
 Name: nornet-trace
-Version: 2.0.0~beta3
+Version: 2.0.0~beta4
 Release: 1
 Summary: NorNet Control
 Group: Applications/Internet

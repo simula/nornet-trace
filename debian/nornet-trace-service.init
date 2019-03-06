@@ -48,8 +48,8 @@ if [ -f /etc/default/nornet-trace ] ; then
    . /etc/default/nornet-trace
 fi
 # Then, apply local settings (if available).
-if [ -f /etc/nornet/nornet-trace.local ] ; then
-   . /etc/nornet/nornet-trace.local
+if [ -f /etc/nornet/nornet-trace-service.local ] ; then
+   . /etc/nornet/nornet-trace-service.local
 fi
 
 # Load the VERBOSE setting and other rcS variables

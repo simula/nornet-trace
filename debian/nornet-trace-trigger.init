@@ -46,16 +46,13 @@ if [ -f /etc/default/nornet-trace ] ; then
    # NOTE: The trace service is configured as well => get the SOURCE_ARGS setting here!
    . /etc/default/nornet-trace
 fi
-if [ -f /etc/default/nornet-trace-trigger ] ; then
-   . /etc/default/nornet-trace-trigger
-fi
 # Then, apply local settings (if available).
 if [ -f /etc/nornet/nornet-trace-trigger.local ] ; then
    . /etc/nornet/nornet-trace-trigger.local
 fi
 if [ "$HPCTTRIGGER_PINGTRACEROUTE_ARGS" == "" ] ; then
    # NOTE: No specific configuration => try to use existing source settings with defaults!
-   HPCTTRIGGER_PINGTRACEROUTE_ARGS="$SOURCE_ARGS"
+   HPCTTRIGGER_PINGTRACEROUTE_ARGS="$SOURCE_ARGS -ping -traceroute"
 fi
 
 # Load the VERBOSE setting and other rcS variables
