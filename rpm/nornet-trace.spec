@@ -1,11 +1,11 @@
 Name: nornet-trace
-Version: 2.0.0~beta5
+Version: 2.0.0~beta6
 Release: 1
 Summary: NorNet Control
 Group: Applications/Internet
 License: GPLv3
 URL: https://www.nntb.no/
-Source: https://packages.nntb.no/software/nornet-trace/%{name}-%{version}.tar.xz
+Source: https://packages.nntb.no/software/%{name}/%{name}-%{version}.tar.xz
 
 AutoReqProv: on
 BuildRequires: cmake
