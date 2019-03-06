@@ -52,7 +52,7 @@ if [ -f /etc/nornet/nornet-trace-trigger.local ] ; then
 fi
 if [ "$HPCTTRIGGER_PINGTRACEROUTE_ARGS" == "" ] ; then
    # NOTE: No specific configuration => try to use existing source settings with defaults!
-   HPCTTRIGGER_PINGTRACEROUTE_ARGS="$SOURCE_ARGS -ping -pingexpiration=5000 -traceroute -tracerouteduration=2000 -tracerouteinitialmaxttl=5 -traceroutefinalmaxttl=35 -tracerouteincrementmaxttl=5"
+   HPCTTRIGGER_PINGTRACEROUTE_ARGS="$SOURCE_ARGS -pingsbeforequeuing=3 -pingtriggerlength=53 -ping -pingexpiration=5000 -traceroute -tracerouteduration=2000 -tracerouteinitialmaxttl=5 -traceroutefinalmaxttl=35 -tracerouteincrementmaxttl=5 -resultstransactionlength=900 -resultsdirectory=/var/hipercontracer -quiet"
 fi
 
 # Load the VERBOSE setting and other rcS variables
