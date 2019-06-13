@@ -1,3 +1,27 @@
+commit 3814a563d31322815284f023f5639cb2ece0db8c
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Jun 13 10:10:56 2019 +0200
+
+    Updated build script.
+
+commit 0d4c05421c29ca94b23f29d671f54691f763bdb3
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Jun 13 10:10:46 2019 +0200
+
+    A fix.
+
+commit 46e4e844f23eeb722d51496d0ca106da051e7d9a
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed May 15 16:24:18 2019 +0200
+
+    Updated Travis CI configuration.
+
+commit b44e447940d99ab7e76b123914bef6c64f0b742d
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed May 15 16:03:56 2019 +0200
+
+    Version bump.
+
 commit f293fabcc68a70b8cd0c321f675689816048b788
 Author: Thomas Dreibholz <dreibh@simula.no>
 Date:   Mon May 6 13:31:53 2019 +0200
