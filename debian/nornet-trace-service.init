@@ -99,8 +99,6 @@ case "$1" in
    sleep 1
    start-stop-daemon --start --background --make-pidfile --pidfile $HIPERCONTRACER_PINGTRACEROUTE_PIDFILE --exec /bin/bash -- -c "exec $HIPERCONTRACER_DAEMON -- $HIPERCONTRACER_PINGTRACEROUTE_ARGS >>$HIPERCONTRACER_PINGTRACEROUTE_LOGFILE 2>&1"
    echo "$NAME."
-   start-stop-daemon --start --background --make-pidfile --pidfile $HIPERCONTRACER_PINGTRACEROUTE_PIDFILE --exec /bin/bash -- -c "exec $HIPERCONTRACER_DAEMON -- $HIPERCONTRACER_PINGTRACEROUTE_ARGS >>$HIPERCONTRACER_PINGTRACEROUTE_LOGFILE 2>&1"
-   echo "$NAME."
    ;;
   status)
    status_of_proc -p $HIPERCONTRACER_PINGTRACEROUTE_PIDFILE $HIPERCONTRACER_DAEMON $NAME \
