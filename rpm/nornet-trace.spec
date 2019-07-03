@@ -1,5 +1,5 @@
 Name: nornet-trace
-Version: 2.0.2
+Version: 2.0.3
 Release: 1
 Summary: NorNet Control
 Group: Applications/Internet
@@ -76,6 +76,8 @@ Requires: nornet-tunnelbox
 
 
 %changelog
+* Wed Jul 03 2019 Thomas Dreibholz <dreibh@simula.no> - 2.0.3
+- New upstream release.
 * Thu Jun 13 2019 Thomas Dreibholz <dreibh@simula.no> - 2.0.2
 - New upstream release.
 * Wed May 15 2019 Thomas Dreibholz <dreibh@simula.no> - 2.0.1
