@@ -72,7 +72,7 @@ echo -e "\x1b[33m`env LANG=C date +%FT%H:%M:%S`: ###### $0 $@ ######\x1b[0m" >>$
 case "$1" in
   start)
    echo -n "Starting $DESC: "
-   start-stop-daemon --start --background --make-pidfile --pidfile $HPCTTRIGGER_PINGTRACEROUTE_PIDFILE --exec $HPCTTRIGGER_DAEMON -- $HPCTTRIGGER_PINGTRACEROUTE_ARGS >>$HPCTTRIGGER_PINGTRACEROUTE_LOGFILE 2>&1
+   start-stop-daemon --start --background --make-pidfile --pidfile $HPCTTRIGGER_PINGTRACEROUTE_PIDFILE --exec /bin/bash -- -c "$HPCTTRIGGER_DAEMON -- $HPCTTRIGGER_PINGTRACEROUTE_ARGS >>$HPCTTRIGGER_PINGTRACEROUTE_LOGFILE 2>&1"
    echo "$NAME."
    # Ensure that importer's log file is writable by user "hipercontracer":
    touch $HPCTTRIGGER_IMPORTER_LOGFILE
