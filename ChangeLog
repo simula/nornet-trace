@@ -1,3 +1,33 @@
+commit 4dfcf36a9174b2006bb3b22505f2e516e843df42
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Aug 6 09:15:26 2019 +0200
+
+    Updated CI scripts.
+
+commit b341bc971ffd9cf951c4ba8acd4275bc73b7a830
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Mon Aug 5 19:14:31 2019 +0200
+
+    Updated Travis CI configuration.
+
+commit 695a68fa0dfe7d12ebf8d82d69c30b855d28fa5e
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Mon Aug 5 19:10:19 2019 +0200
+
+    Updated build scripts.
+
+commit 718197df1374242fb9d025dfc7a7136b7324e3db
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Jul 31 11:06:43 2019 +0200
+
+    Init script fix.
+
+commit cb098d5117fa6facce19e7fe7f11f17cda4ec4f0
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Jul 3 10:35:49 2019 +0200
+
+    New release nornet-trace-2.0.3.
+
 commit 2f3b01b6d1b0bad5ec317abb31336b139b742503
 Author: Thomas Dreibholz <dreibh@simula.no>
 Date:   Wed Jul 3 10:35:28 2019 +0200
