@@ -6,7 +6,7 @@ Homepage: https://www.nntb.no/
 Build-Depends: cmake (>= 3.0.2) | cmake3,
                debhelper (>= 9),
                python3-all
-Standards-Version: 4.3.0
+Standards-Version: 4.4.0.1
 Vcs-Git: https://github.com/simula/nornet-trace.git
 Vcs-Browser: https://github.com/simula/nornet-trace
 
@@ -15,7 +15,7 @@ Architecture: all
 Depends: hipercontracer (>= 1.2.0~),
          ${misc:Depends},
          ${shlibs:Depends}
-Description: NorNet Trace Importer
+Description: Trace importer for NorNet Core
  NorNet Trace Importer is the importer cron job to import results from the
  NorNet Trace Service into a database.
  .
@@ -23,12 +23,15 @@ Description: NorNet Trace Importer
 
 Package: nornet-trace-service
 Architecture: all
+Pre-Depends: ${misc:Pre-Depends}
 Depends: hipercontracer (>= 1.2.0~),
+         lsb-base,
          nornet-trace-importer (= ${binary:Version}),
          nornet-tunnelbox,
+         python3,
          ${misc:Depends},
          ${shlibs:Depends}
-Description: NorNet Trace Service
+Description: Trace Service for NorNet Core
  NorNet Trace Service is the traceroute service for the NorNet testbed.
  It performs regular HiPerConTracer runs among all sites.
  .
@@ -36,11 +39,13 @@ Description: NorNet Trace Service
 
 Package: nornet-trace-trigger
 Architecture: all
+Pre-Depends: ${misc:Pre-Depends}
 Depends: hipercontracer-trigger (>= 1.3.0~),
+         lsb-base,
          nornet-trace-importer (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Description: NorNet Trace Trigger
+Description: Triggered Trace Service for NorNet Core
  NorNet Trace Trigger is the traceroute service for the NorNet testbed.
  It performs triggered HiPerConTracer runs.
  .
