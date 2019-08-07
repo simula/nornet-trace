@@ -15,5 +15,5 @@ Primary-site:   https://packages.nntb.no/software/nornet-trace
                 37 kB nornet-trace-2.0.4.tar.xz
 Original-site:  https://packages.nntb.no/software/nornet-trace
 Platforms:      Linux
-Copying-policy: GPL
+Copying-policy: GPL-3+
 End
