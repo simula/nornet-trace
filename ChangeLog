@@ -1,3 +1,21 @@
+commit 44be9ae4d3f5a8cc50a38da6e383c4f9410c8d05
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Aug 8 09:03:15 2019 +0200
+
+    Minor update.
+
+commit acee92b798e0f9eba68b72453f5b5f199e05ef86
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Aug 7 19:34:45 2019 +0200
+
+    Updated LSM entry.
+
+commit fa34cb59e5c37182442734d3029b4c3968e36a65
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Aug 7 19:32:53 2019 +0200
+
+    New release nornet-trace-2.0.6.
+
 commit afb205672e53d77fde15911bb04ec5098115f098
 Author: Thomas Dreibholz <dreibh@simula.no>
 Date:   Wed Aug 7 19:32:43 2019 +0200
