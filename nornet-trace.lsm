@@ -1,7 +1,7 @@
 Begin4
 Title:          nornet-trace
-Version:        2.0.6
-Entered-date:   2019-08-07
+Version:        2.0.7
+Entered-date:   2019-08-08
 Description:    This package contains the NorNet Trace experiment software.
                 It is used to perform Traceroute experiments between NorNet
                 Core sites, based on the HiPerConTracer library and results
@@ -12,7 +12,7 @@ Keywords:       NorNet, NorNet Core, Ping, Traceroute, Connectivity,
 Author:         dreibh@simula.no (Thomas Dreibholz)
 Maintained-by:  dreibh@simula.no (Thomas Dreibholz)
 Primary-site:   https://packages.nntb.no/software/nornet-trace
-                37 kB nornet-trace-2.0.6.tar.xz
+                38 kB nornet-trace-2.0.7.tar.xz
 Original-site:  https://packages.nntb.no/software/nornet-trace
 Platforms:      Linux
 Copying-policy: GPL-3+
