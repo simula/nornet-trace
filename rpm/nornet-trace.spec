@@ -11,6 +11,7 @@ AutoReqProv: on
 BuildRequires: cmake
 BuildRequires: gcc
 BuildRequires: gcc-c++
+BuildRequires: python3-devel
 BuildRoot: %{_tmppath}/%{name}-%{version}-build
 
 
@@ -32,9 +33,11 @@ See https://www.nntb.no for details on NorNet!
 %build
 %cmake -DCMAKE_INSTALL_PREFIX=/usr .
 make %{?_smp_mflags}
+# py3_build
 
 %install
 make DESTDIR=%{buildroot} install
+# py3_install
 
 
 

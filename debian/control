@@ -5,6 +5,7 @@ Maintainer: Thomas Dreibholz <dreibh@iem.uni-due.de>
 Homepage: https://www.nntb.no/
 Build-Depends: cmake (>= 3.0.2) | cmake3,
                debhelper (>= 9),
+               dh-python,
                python3-all
 Standards-Version: 4.4.0.1
 Vcs-Git: https://github.com/simula/nornet-trace.git
@@ -14,6 +15,7 @@ Package: nornet-trace-importer
 Architecture: all
 Depends: hipercontracer (>= 1.2.0~),
          ${misc:Depends},
+         ${python3:Depends},
          ${shlibs:Depends}
 Description: Trace importer for NorNet Core
  NorNet Trace Importer is the importer cron job to import results from the
@@ -28,8 +30,8 @@ Depends: hipercontracer (>= 1.2.0~),
          lsb-base,
          nornet-trace-importer (= ${binary:Version}),
          nornet-tunnelbox,
-         python3,
          ${misc:Depends},
+         ${python3:Depends},
          ${shlibs:Depends}
 Description: Trace Service for NorNet Core
  NorNet Trace Service is the traceroute service for the NorNet testbed.
