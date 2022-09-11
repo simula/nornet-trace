@@ -1,3 +1,33 @@
+commit 42038d84755a3247eedf84b592b89b2f3e81c3c7
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Aug 31 11:47:32 2022 +0200
+
+    Removed Vcs-* fields from debian/control.
+
+commit c4cac71550f5db867170503da99aa1bcdf3fb925
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Aug 31 11:19:11 2022 +0200
+
+    Updated CI scripts
+
+commit b78d2dfa066c47c23b627a98951f90dc4942575b
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Aug 31 11:19:09 2022 +0200
+
+    Updated build scripts
+
+commit 2018e28163b1749dc391fdacc1ec16f75a7d3ec2
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Feb 16 12:56:41 2022 +0100
+
+    Updated LSM entry.
+
+commit a93bfad592d4b400ae450008c494443eac2cf173
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Feb 16 12:37:30 2022 +0100
+
+    New release nornet-trace-2.0.9.
+
 commit 22673463fd336e9648c0fb00bf33405dea547d88
 Author: Thomas Dreibholz <dreibh@simula.no>
 Date:   Wed Feb 16 12:21:50 2022 +0100
