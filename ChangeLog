@@ -1,3 +1,51 @@
+commit e9db754e7a593ad47bd96b8d69bc4ff552878a15
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Nov 15 11:42:31 2023 +0100
+
+    Dependency improvements.
+
+commit 345a22d6fec07ba80501ad7551a7c38a64171ea5
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Nov 15 10:55:21 2023 +0100
+
+    Packaging clean-ups.
+
+commit 8801c15327a008fa704775aae926d98f8630b40a
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Nov 15 09:53:31 2023 +0100
+
+    Header updates.
+
+commit 597edbd4b7b2f8172ea7fed96669ac9cf03ff733
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Nov 15 09:51:09 2023 +0100
+
+    Updated build scripts
+
+commit b5220eddd2f6743c857831b06edf12dcb827d45b
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Nov 15 09:33:57 2023 +0100
+
+    Updated CI scripts
+
+commit b52988626d9f52e0c047562319d3a271adb9fb23
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Nov 15 09:33:42 2023 +0100
+
+    Updated build scripts
+
+commit 5d477a90bf6bcae51be960fa47cab15fd3da7367
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Mon Dec 12 13:29:58 2022 +0100
+
+    Minor CMakeLists.txt updates.
+
+commit 788df0bd1608615ad9cc939ef9a7ed2884924e57
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Sun Sep 11 13:40:42 2022 +0200
+
+    New release nornet-trace-2.0.10.
+
 commit 42038d84755a3247eedf84b592b89b2f3e81c3c7
 Author: Thomas Dreibholz <dreibh@simula.no>
 Date:   Wed Aug 31 11:47:32 2022 +0200

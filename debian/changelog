@@ -1,9 +1,9 @@
-nornet-trace (2.0.11~rc1-1ubuntu1) disco; urgency=medium
+nornet-trace (2.0.11-1ubuntu1) disco; urgency=medium
 
   * New upstream release.
   * debian/control: Updated standards version to 4.6.2.
 
- -- Thomas Dreibholz <dreibh@iem.uni-due.de>  Wed, 15 Nov 2023 10:52:49 +0100
+ -- Thomas Dreibholz <dreibh@iem.uni-due.de>  Wed, 06 Dec 2023 16:55:00 +0100
 
 nornet-trace (2.0.10-1ubuntu1) disco; urgency=medium
 
