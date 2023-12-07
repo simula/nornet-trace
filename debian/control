@@ -26,9 +26,9 @@ Pre-Depends: ${misc:Pre-Depends}
 Depends: hipercontracer (>= 1.2.0~),
          nornet-trace-importer (= ${binary:Version}),
          nornet-tunnelbox,
-         sysvinit-core,
-         ${python3:Depends},
-         ${misc:Depends}
+         systemd-sysv | sysvinit-core,
+         ${misc:Depends},
+         ${python3:Depends}
 Description: Trace Service for NorNet Core
  NorNet Trace Service is the traceroute service for the NorNet testbed.
  It performs regular HiPerConTracer runs among all sites.
@@ -40,7 +40,7 @@ Architecture: all
 Pre-Depends: ${misc:Pre-Depends}
 Depends: hipercontracer-trigger (>= 1.3.0~),
          nornet-trace-importer (= ${binary:Version}),
-         sysvinit-core,
+         systemd-sysv | sysvinit-core,
          ${misc:Depends}
 Description: Triggered Trace Service for NorNet Core
  NorNet Trace Trigger is the traceroute service for the NorNet testbed.
