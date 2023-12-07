@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Thomas Dreibholz <dreibh@iem.uni-due.de>
 Homepage: https://www.nntb.no/
 Build-Depends: cmake,
-               debhelper (>= 12),
+               debhelper (>= 9),
                dh-python,
                python3-all
 Standards-Version: 4.6.2
