@@ -7,7 +7,7 @@ Build-Depends: cmake,
                debhelper (>= 9),
                dh-python,
                python3-all
-Standards-Version: 4.6.2
+Standards-Version: 4.7.2
 Rules-Requires-Root: no
 
 Package: nornet-trace-importer
